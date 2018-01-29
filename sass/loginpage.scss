@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol,dl,li,dt,dd{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+body{
+    width: 1312px;
+    height: 662px;
+    margin: 0 auto;
+    background: #fcfcfc;
+    border-bottom: 1px solid gainsboro;
+}
+.header{
+    width: 100%;
+    height: 87px;
+    border-bottom: 1px solid #e1e1e1;
+    .logo{
+        width: 148px;
+        height: 58px;
+        float: left;
+        img{
+        width: 148px;
+        height: 58px;
+        margin-top: 14px;
+        margin-left: 67px;
+    }
+    }
+    .right{
+        width:300px;
+        height: 100px;
+        float: right;
+        .login{
+            font-size: 12px;
+            color: #999999;
+            margin-right: 15px;
+            span{
+                color: #0066cc;
+            }
+        }
+        .service{
+            display: inline-block;
+            padding: 5px 18px;
+            border: 1px solid #cccccc;
+            margin-top: 5px;
+            color: #333333;
+            font-size: 14px;
+        }
+    }
+}
+.nav{
+    width: 100%;
+    height: 456px;
+    >.left{
+        float: left;
+        margin-left: 231px;
+        margin-top: 22px;
+    }
+    >.right{
+        width: 331px;
+        height: 331px;
+        float: right;
+        margin-right: 154px;
+        margin-top: 74px;
+        ul{
+            width: 100%;
+            height: 100%;
+            li:nth-child(1){
+                width: 100%;
+                height: 30px;
+                line-height: 30px;
+                .left{
+                    float: left;
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #666666;
+                }
+                .right{
+                    float: right;
+                    font-size: 12px;
+                    color: #0066cc;
+                }
+            }
+            li:nth-child(2),li:nth-child(3){
+                width: 100%;
+                height: 54px;
+                margin-bottom: 10px;
+                input{
+                    width: 100%;
+                    height: 100%;
+                    outline: none;
+                    border: 1px solid #ccc;
+                    padding-left: 66px;
+                    background: url(../loginpageimg/5.png) no-repeat 22px center;
+                }
+            }
+            li:nth-child(3){
+                input{
+                    background: url(../loginpageimg/6.png) no-repeat 22px center;
+                }
+            }
+            li:nth-child(4){
+                width: 100%;
+                height: 49px;
+                line-height: 49px;
+                .left{
+                    float: left;
+                    padding-left: 4px;
+                    color: #999999;
+                    font-size: 14px;
+                    input{
+                        margin-right: 6px;
+                    }
+                }
+                .right{
+                    float: right;
+                    font-size: 14px;
+                    color: #999999;
+                }
+            }
+            li:nth-child(5){
+                width: 100%;
+                height: 52px;
+                input{
+                    width: 100%;
+                    height: 52px;
+                    line-height: 52px;
+                    text-align: center;
+                    background: #ff3c3c;
+                    color: #fff;
+                    font-weight: bold;
+                    border-radius: 3px;
+                }
+            }
+            li:nth-child(6){
+                width: 100%;
+                height: 47px;
+                line-height: 47px;
+                font-size: 14px;
+                color: #666666;
+            }
+            li:nth-child(7){
+                width: 100%;
+                height: 35px;
+                line-height: 35px;
+                font-size: 12px;
+                color: #999;
+                img{
+                    height: 100%;
+                    margin-top: -5px;
+                    margin-right:10px ;
+                }
+                span{
+                    float: right;
+                }
+            }
+        }
+    }
+}
+.footer{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    p{
+        font-size: 12px;
+        color: #999;
+    }
+}

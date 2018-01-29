@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<script src="js/swiper.min.js"></script>
+		<title></title>
+		<style type="text/css">
+			* {
+				font-family: "微软雅黑";
+			}
+			
+			#LoutiNav {
+				position: fixed;
+				top: 25%;
+				left: 40px;
+				width: 30px;
+				border: 1px solid;
+			}
+			
+			#LoutiNav ul li {
+				position: relative;
+				width: 30px;
+				height: 30px;
+				list-style: none;
+				text-align: center;
+				line-height: 30px;
+				font-size: 12px;
+				cursor: pointer;
+				border-bottom: 1px dotted #AAAAAA;
+			}
+			
+			#LoutiNav ul li.last {
+				background: darkred;
+				color: white;
+				border-bottom: none;
+			}
+			
+			#LoutiNav ul li span {
+				display: none;
+				width: 30px;
+				height: 30px;
+				position: absolute;
+				top: 0;
+				left: 0;
+				color: red;
+			}
+			
+			#LoutiNav ul li:hover span {
+				display: block;
+				background: darkred;
+				color: white;
+			}
+			
+			#LoutiNav ul li span.active {
+				display: block;
+				background: white;
+				color: red;
+			}
+			
+			#LoutiNav ul li:hover span.active {
+				display: block;
+				background: darkred;
+				color: white;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="LoutiNav">
+			<ul>
+				<li class="hover">1F <span>生鲜</span></li>
+				<li>2F <span>美妆</span></li>
+				<li>3F <span>母婴</span></li>
+				<li class="last">Top</li>
+			</ul>
+		</div>
+		<div class="header">
+			<div class="top">
+				<div class="left">送货至:四川</div>
+				<div class="right">您好!请登录
+					<span>免费注册</span>|
+					<span>我的订单</span>|
+					<span>收藏夹</span>|
+					<span>客户服务</span>
+					<span>网站导航</span>|
+					<span>关注我们</span>|
+					<span>手机版</span>
+				</div>
+			</div>
+			<div class="head">
+				<ul>
+					<li><img src="img/shouye/onelogo.jpg" /></li>
+					<li>
+						<p><input type="text" placeholder="请输入关键字"><button>搜索</button></p>
+						<p>
+							<ol>
+								<li>咖啡</li>
+								<li>iphone 6S</li>
+								<li>新鲜美食</li>
+								<li>蛋糕</li>
+								<li>日用品</li>
+								<li>连衣裙</li>
+							</ol>
+						</p>
+					</li>
+					<li>
+						<button class="Shop"><img src="img/shouye/shop.jpg"/>购物车</button>
+						<div class="shop">
+							<div class="top">
+								<p>
+									<span>一号店满199减100</span>
+									<span>共1件商品</span>
+								</p>
+								<p>
+									<span class="left"><img src="img/shop.png"/></span>
+									<span class="right">
+										<span>宝贝许愿坊 童装女装套装</span>
+									<span>深蓝140码</span>
+									<span><button class="btn">-</button><span class="num">1</span><button class="btn2">+</button></span>
+									<span>￥<b class="price">190</b></span>
+									</span>
+								</p>
+								<p>参加一项促销，节约成本￥100</p>
+							</div>
+							<div class="top">
+								<p>
+									<span>一号店满199减100</span>
+									<span>共1件商品</span>
+								</p>
+								<p>
+									<span class="left"><img src="img/shop.png"/></span>
+									<span class="right">
+										<span>宝贝许愿坊 童装女装套装</span>
+									<span>深蓝140码</span>
+									<span><button class="btn">-</button><span class="num">1</span><button class="btn2">+</button></span>
+									<span>￥<b class="price">190</b></span>
+									</span>
+								</p>
+								<p>参加一项促销，节约成本￥100</p>
+							</div>
+							<div class="top">
+								<p>
+									<span>一号店满199减100</span>
+									<span>共1件商品</span>
+								</p>
+								<p>
+									<span class="left"><img src="img/shop.png"/></span>
+									<span class="right">
+										<span>宝贝许愿坊 童装女装套装</span>
+									<span>深蓝140码</span>
+									<span><button class="btn">-</button><span class="num">1</span><button class="btn2">+</button></span>
+									<span>￥<b class="price">190</b></span>
+									</span>
+								</p>
+								<p>参加一项促销，节约成本￥100</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="nav">
+			<div class="head">
+				<span>全部商品分类</span>
+				<span>
+					<ul>
+						<li>首页</li>
+						<li>自营超市</li>
+						<li>1号团</li>
+						<li>1号超市</li>
+						<li>女装</li>
+						<li>美妆</li>
+						<li>1号海购</li>
+						<li>团购</li>
+					</ul>
+				</span>
+				<span>手机下单惊喜多</span>
+			</div>
+			<div class="Nav">
+				<div>
+					<ul class="menu">
+						<li><img src="img/shouye/01.jpg" /><span>进口食品、生鲜</span></li>
+						<li><img src="img/shouye/2.jpg" /><span>食品、饮料、酒</span></li>
+						<li><img src="img/shouye/3.jpg" /><span>母婴、玩具、童装</span></li>
+						<li><img src="img/shouye/4.jpg" /><span>家居、家庭清洁、纸品</span></li>
+						<li><img src="img/shouye/5.jpg" /><span>美妆、个人护理、洗护</span></li>
+						<li><img src="img/shouye/6.jpg" /><span>女孩、内衣、中老年</span></li>
+						<li><img src="img/shouye/7.jpg" /><span>鞋靴、箱包、腕表</span></li>
+						<li><img src="img/shouye/8.jpg" /><span>男装、运动</span></li>
+						<li><img src="img/shouye/9.jpg" /><span>手机、小家电、电脑</span></li>
+						<li><img src="img/shouye/10.jpg" /><span>礼品、充值</span></li>
+					</ul>
+					<div class="submenu">
+						<ul>
+							<li>1</li>
+							<li>2</li>
+							<li>3</li>
+							<li>4</li>
+							<li>5</li>
+							<li>6</li>
+							<li>7</li>
+							<li>8</li>
+							<li>9</li>
+							<li>10</li>
+						</ul>
+					</div>
+				</div>
+				<div>
+					<div class="swiper-container swiper1">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide list active">
+								<img src="img/shouye/lun.jpg" />
+							</div>
+							<div class="swiper-slide list">
+								<img src="img/shouye/lun.jpg" />
+							</div>
+							<div class="swiper-slide list">
+								<img src="img/shouye/lun.jpg" />
+							</div>
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+				<div>
+					<div class="top">
+						<span>快讯</span>
+						<span>更多></span>
+					</div>
+					<div class="gg">
+						<ul>
+							<li>【特惠】<span>拘一轮明月，表无限想念</span></li>
+							<li>【公告】<span>好奇金装成长裤新品上市</span></li>
+							<li>【特惠】<span>打牌闪购·抢！</span></li>
+							<li>【公告】<span>发福利 买车就抢千元油卡</span></li>
+							<li>【公告】<span>买家电 低至五折</span></li>
+						</ul>
+					</div>
+					<div class="qb">
+						<p>1号钱包</p>
+						<p>收益日结，收益转High！</p>
+						<p><img src="img/shouye/ima.jpg" /></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="temai">
+			<div class="left">
+				<img src="img/shouye/one.jpg" />
+			</div>
+			<div class="right">
+				<ul>
+					<li>
+						<img src="img/shouye/five.jpg" />
+						<p>德国进口</p>
+						<p>德亚全脂纯牛奶200ml*48盒</p>
+						<p>￥189 <span> 26R</span></p>
+					</li>
+					<li>
+						<img src="img/shouye/four.jpg" />
+						<p>iphone 6S</p>
+						<p>Apple/苹果 iPhone 6S plus公开版</p>
+						<p>￥5288 <span> 25R</span></p>
+					</li>
+					<li>
+						<img src="img/shouye/three.jpg" />
+						<p>倩碧特惠套装组合</p>
+						<p>倩碧补水组合套装8折促销</p>
+						<p>￥368 <span> 18R</span></p>
+					</li>
+					<li>
+						<img src="img/shouye/five.jpg" />
+						<p>德国进口</p>
+						<p>德亚全脂纯牛奶200ml*48盒</p>
+						<p>￥189 <span> 26R</span></p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="box">
+
+			<img src="img/shouye/首页完成后效果_69.jpg" />
+		</div>
+		<div class="Tab">
+			<div class="super">
+				<div class="F1">
+					<div class="left"><img src="img2/F_03.gif" /><span>进口·生鲜</span></div>
+					<div class="right">
+						<ul>
+							<li>进口咖啡</li>
+							<li>进口酒</li>
+							<li>进口母婴</li>
+							<li>新鲜蔬菜</li>
+							<li>新鲜水果</li>
+						</ul>
+					</div>
+				</div>
+				<div class="F1_nav F">
+					<div class="left">
+						<img src="img2/F_06.gif" alt="" />
+						<ul>
+							<li>
+								<span>进口水果</span>
+								<span>奇异果</span>
+								<span>西柚</span>
+							</li>
+							<li>
+								<span>海鲜水产</span>
+								<span>品质牛肉</span>
+							</li>
+							<li>
+								<span>奶粉</span>
+								<span>鲜活禽蛋</span>
+								<span>进口酒</span>
+							</li>
+							<li>
+								<span>进口奶粉</span>
+								<span>鲜活禽蛋</span>
+							</li>
+						</ul>
+					</div>
+					<div class="shangp">
+						<ul>
+							<li>
+								<p></p>
+								<p></p>
+								<img />
+							</li>
+							<li>
+								<p></p>
+								<p></p>
+								<img />
+							</li>
+							<li>
+								<p></p>
+								<p></p>
+								<img />
+							</li>
+							<li>
+								<p></p>
+								<p></p>
+								<img />
+							</li>
+							<li>
+								<p></p>
+								<p></p>
+								<img />
+							</li>
+							<li>
+								<p></p>
+								<p></p>
+								<img />
+							</li>
+						</ul>
+					</div>
+					<div class="right">
+						<img src="img2/F_08.gif" alt="" />
+						<img src="img2/F_20.gif" alt="" />
+					</div>
+				</div>
+			</div>
+			<div class="super">
+				<div class="F2">
+					<div class="left"><img src="img2/F_29.gif" /><span>个人美妆</span></div>
+					<div class="right">
+						<ul>
+							<li>洗发护发</li>
+							<li>面膜</li>
+							<li>洗面奶</li>
+							<li>香水</li>
+							<li>沐浴露</li>
+						</ul>
+					</div>
+				</div>
+				<div class="F2_nav F">
+					<div class="left">
+						<img src="img2/F_32.gif" alt="" />
+						<ul>
+							<li>
+								<span>洗发护发</span>
+								<span>牙刷牙膏</span>
+							</li>
+							<li>
+								<span>面膜</span>
+								<span>补水面膜</span>
+								<span>香水</span>
+							</li>
+							<li>
+								<span>面霜</span>
+								<span>洗面奶</span>
+								<span>脱毛膏</span>
+							</li>
+							<li>
+								<span>沐浴露</span>
+							</li>
+						</ul>
+					</div>
+					<div class="shangp">
+						<ul>
+							<li>
+								<p></p>
+								<p></p>
+								<img />
+							</li>
+							<li>
+								<p></p>
+								<p></p>
+								<img />
+							</li>
+							<li>
+								<p></p>
+								<p></p>
+								<img />
+							</li>
+							<li>
+								<p></p>
+								<p></p>
+								<img />
+							</li>
+							<li>
+								<p></p>
+								<p></p>
+								<img />
+							</li>
+							<li>
+								<p></p>
+								<p></p>
+								<img />
+							</li>
+						</ul>
+					</div>
+					<div class="right">
+						<img src="img2/F_44.gif" alt="" />
+						<img src="img2/F_44.gif" alt="" />
+					</div>
+				</div>
+			</div>
+			<div class="super">
+				<div class="box2"><img src="img2/F_55.gif" alt="" /></div>
+				<div class="F3">
+					<div class="left"><img src="img2/F_57.png" /><span>母婴玩具</span></div>
+					<div class="right">
+						<ul>
+							<li>营养品</li>
+							<li>孕妈背带裤</li>
+							<li>儿童玩具</li>
+							<li>婴儿床</li>
+							<li>喂奶器</li>
+						</ul>
+					</div>
+				</div>
+				<div class="F3_nav F">
+					<div class="left">
+						<img src="img2/F_32.gif" alt="" />
+						<ul>
+							<li>
+								<span>孕妈必备</span>
+								<span>儿童玩具</span>
+							</li>
+							<li>
+								<span>童装童鞋</span>
+								<span>辅助食品</span>
+							</li>
+							<li>
+								<span>奶粉</span>
+								<span>鲜活禽蛋</span>
+								<span>维生素</span>
+							</li>
+							<li>
+								<span>童装童鞋</span>
+								<span>辅助食品</span>
+							</li>
+						</ul>
+					</div>
+					<div class="shangp">
+						<ul>
+							<li>
+								<p></p>
+								<p></p>
+								<img />
+							</li>
+							<li>
+								<p></p>
+								<p></p>
+								<img />
+							</li>
+							<li>
+								<p></p>
+								<p></p>
+								<img />
+							</li>
+							<li>
+								<p></p>
+								<p></p>
+								<img />
+							</li>
+							<li>
+								<p></p>
+								<p></p>
+								<img />
+							</li>
+							<li>
+								<p></p>
+								<p></p>
+								<img />
+							</li>
+						</ul>
+					</div>
+					<div class="right">
+						<img src="img2/F_62.gif" alt="" />
+						<img src="img2/F_74.gif" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="box3">
+			<ul>
+				<li>
+					<img src="img2/F_88.gif" />
+					<p>正品保障</p>
+					<p>正品行货 放心购买</p>
+				</li>
+				<li>
+					<img src="img2/F_91.gif" />
+					<p>满38包邮</p>
+					<p>满38包邮 免运费</p>
+				</li>
+				<li>
+					<img src="img2/F_94.gif" />
+					<p>天天低价</p>
+					<p>天天低价 畅选无忧</p>
+				</li>
+				<li>
+					<img src="img2/F_96.gif" />
+					<p>准时送达</p>
+					<p>收货时间由你做主</p>
+				</li>
+			</ul>
+		</div>
+		<div class="footer">
+			<div class="left">
+				<ul>
+					<li>
+						<h2>新手上路</h2>
+						<p>售后流程</p>
+						<p>购物流程</p>
+						<p>订购方式</p>
+						<p>隐私声明</p>
+						<p>推荐分享说明</p>
+					</li>
+					<li>
+						<h2>配送与支付</h2>
+						<p>货到付款区域</p>
+						<p>配送支付查询</p>
+						<p>支付方式说明</p>
+					</li>
+					<li>
+						<h2>会员中心</h2>
+						<p>资金管理</p>
+						<p>我的收藏</p>
+						<p>我的订单</p>
+					</li>
+					<li>
+						<h2>服务保证</h2>
+						<p>退换货原则</p>
+						<p>售后服务保证</p>
+						<p>产品质量保证</p>
+					</li>
+					<li>
+						<h2>联系我们</h2>
+						<p>网站故障报告</p>
+						<p>购物查询</p>
+						<p>投诉与建议</p>
+					</li>
+				</ul>
+			</div>
+			<div class="right">
+				<div class="ma">
+					<img src="img2/F_103.png" />
+				</div>
+				<div class="call">
+					<p>新浪微博</p>
+					<p>腾讯微博</p>
+					<span>服务热线：<br /><span>400-123-4567</span></span>
+				</div>
+			</div>
+		</div>
+		<div class="box4">备案/许可证编号 : 蜀ICP备12009302号-1-www.dingguagua.com Copyright&copy 一号店网上超市 2007-2016 All Rights Reserved.复制必究 Technical Support: Dgg Group</div>
+		<div class="Boss">
+			<ul>
+				<li><img src="img2/G_03.gif" /></li>
+				<li><img src="img2/G_05.gif" /></li>
+				<li><img src="img2/G_07.gif" /></li>
+				<li><img src="img2/G_09.gif" /></li>
+				<li><img src="img2/G_11.gif" /></li>
+				<li><img src="img2/G_13.png" /></li>
+			</ul>
+		</div>
+	</body>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script>
+		var swiper1 = new Swiper(".swiper1", {
+			autoplay: 2000,
+			loop: true,
+			pagination: '.swiper-pagination'
+		});
+		$("#LoutiNav ul li").not(".last").hover(function() {
+			//鼠标滑上去
+			$(this).addClass("hover");
+		}, function() {
+			//鼠标移开
+			$(this).removeClass("hover");
+		});
+		//鼠标点击
+		var mark = 1;
+		$("#LoutiNav ul li").not(".last").click(function() {
+			mark = 2; //改变标记
+			$("#LoutiNav ul li").find("span").removeClass("active");
+			$(this).find("span").addClass("active");
+			//点击左边导航 然后跳到指定的楼层
+			var $index = $(this).index(); //找到了对应的序列号
+			//alert($index);
+			var $top = $(".F").eq($index).offset().top; //获取制定Louti与浏览器上面的距离
+			//				alert($top);
+			$("body,html").animate({
+				scrollTop: $top
+			}, 500, function() {
+				mark = 1;
+			}); //浏览器滚动的高度
+		});
+		//浏览器串口滚动事件
+		$(window).scroll(function() {
+			if(mark == 1) {
+				var $t = $(this).scrollTop(); //获取滚动条滚动的高度
+				//document.title = $t;
+				if($t > 1000) { //通过滚动条来判断
+					$("#LoutiNav").fadeIn(); //淡入 导航慢慢显示出来
+				} else {
+					$("#LoutiNav").fadeOut(); //淡出 导航慢慢消失
+				}
+				var $obj = $(".Tab .super");
+				//循环每一个Louti 然后找到最先满足条件的那个 Louti
+				$obj.each(function() {
+					var $index = $(this).index();
+					//楼层与浏览器上面的高度
+					var $height = $obj.eq($index).offset().top + $(this).height() / 2;
+					//						alert($height) 
+					//document.title = $t + "--" + $height;
+					if($t < $height) {
+						$("#LoutiNav ul li").find("span").removeClass("active")
+						$("#LoutiNav ul li").eq($index).find("span").addClass("active");
+						return false;
+					}
+				})
+			}
+		});
+		//			$(window).scroll(function(){
+		////				console.log($(window).scrollTop())
+		//				var $t = $(this).scrollTop(); //获取滚动条滚动的高度
+		//				for(var i=0;i<$(".F").length;i++){
+		//					var $height= $(".F").eq(i).offset().top + $(this).height() / 2;
+		//					if ($t < $height) {
+		//							$("#LoutiNav ul li").find("span").removeClass("active")
+		//							$("#LoutiNav ul li").eq(i).find("span").addClass("active");
+		//							return false;
+		//						}
+		//				}
+		//			})
+		//			$(window).scroll(function(){
+		//				console.log($(window).scrollTop());
+		//				if($(window).scrollTop()>1000){
+		//					$("#LoutiNav ul li").find("span").removeClass("active")
+		//				}
+		//				if($(window).scrollTop()>=1000&&$(window).scrollTop()<1500){
+		//					$("#LoutiNav ul li").find("span").removeClass("active")
+		//					$("#LoutiNav ul li").find("span").eq(0).addClass("active").siblings().removeClass("active");
+		//				}
+		//				if($(window).scrollTop()>=1500&&$(window).scrollTop()<2000){
+		//					$("#LoutiNav ul li").find("span").removeClass("active")
+		//					$("#LoutiNav ul li").find("span").eq(1).addClass("active").siblings().removeClass("active");
+		//				}
+		//				if($(window).scrollTop()>=2000&&$(window).scrollTop()<2500){
+		//					$("#LoutiNav ul li").find("span").removeClass("active")
+		//					$("#LoutiNav ul li").find("span").eq(2).addClass("active").siblings().removeClass("active");
+		//				}
+		//			})
+		//点击 Top按钮 跳转到浏览器顶部
+		$("#LoutiNav ul li.last").click(function() {
+			$("body,html").animate({
+				scrollTop: 0
+			}, 0, function() {
+				mark = 1;
+			});
+		});
+		$(".menu li").hover(function() {
+			var $index = $(this).index()  
+			$(".submenu ul li").css("display", "none")
+			$(".submenu ul li").eq($index).css("display", "block")
+		}, function() {
+			$(".submenu ul li").css("display", "none")
+		})
+		var num = true
+		$(".Shop").click(function() {
+			if(num == true) {
+				$(".shop").css("display", "block")
+				num = !num
+			} else {
+				$(".shop").css("display", "none")
+				num = !num
+			}
+		})
+
+		function scroll() {
+			$(".gg ul").animate({
+				"margin-top": "-20px"
+			}, function() {
+				$(".gg ul li:eq(0)").appendTo($(".gg ul"))
+				$(".gg ul").css({
+					"margin-top": 0
+				})
+			})
+		}
+		setInterval(scroll, 2000)
+		var btn = $(".btn")
+		var btn2 = $(".btn2")
+		var pr=$(".price")
+		for(var i = 0; i < btn.length; i++) {
+			btn[i].index=i
+			btn.eq(i).click(function() {
+				if(this.nextSibling.innerHTML <= 0) {
+					this.nextSibling.innerHTML = 0
+				} else {
+					this.nextSibling.innerHTML = Number(this.nextSibling.innerHTML) - 1
+				}
+				var ng2=Number(this.nextSibling.innerHTML)
+				pr.eq(this.index).html(190*ng2)
+			})
+		}
+		for(var i = 0; i < btn2.length; i++) {
+			btn2[i].index=i
+			btn2.eq(i).click(function() {
+					this.previousSibling.innerHTML = Number(this.previousSibling.innerHTML) + 1
+					var ng2=Number(this.previousSibling.innerHTML)
+					pr.eq(this.index).html(190*ng2)
+			})
+		}
+		$.ajax({
+			type:"get",
+			url:"index.json",
+			async:true,
+			success:function(res){
+//				console.log(res.arr[0].text1)
+//console.log($(".F .shangp ul li p:nth-child(1)").text())
+				$(".F .shangp ul li:nth-child(1) p:nth-child(1)").each(function(i){
+					$(this).text(res.arr[i].text1)
+				})
+				$(".F .shangp ul li:nth-child(1) p:nth-child(2)").each(function(i){
+					$(this).text(res.arr[i].price1)
+				})
+				$(".F .shangp ul li:nth-child(1) img").each(function(i){
+					$(this).attr("src",res.arr[i].img1)
+				})
+				$(".F .shangp ul li:nth-child(2) p:nth-child(1)").each(function(i){
+					$(this).text(res.arr[i].text2)
+				})
+				$(".F .shangp ul li:nth-child(2) p:nth-child(2)").each(function(i){
+					$(this).text(res.arr[i].price2)
+				})
+				$(".F .shangp ul li:nth-child(2) img").each(function(i){
+					$(this).attr("src",res.arr[i].img2)
+				})
+				$(".F .shangp ul li:nth-child(3) p:nth-child(1)").each(function(i){
+					$(this).text(res.arr[i].text3)
+				})
+				$(".F .shangp ul li:nth-child(3) p:nth-child(2)").each(function(i){
+					$(this).text(res.arr[i].price3)
+				})
+				$(".F .shangp ul li:nth-child(3) img").each(function(i){
+					$(this).attr("src",res.arr[i].img3)
+				})
+				$(".F .shangp ul li:nth-child(4) p:nth-child(1)").each(function(i){
+					$(this).text(res.arr[i].text4)
+				})
+				$(".F .shangp ul li:nth-child(4) p:nth-child(2)").each(function(i){
+					$(this).text(res.arr[i].price4)
+				})
+				$(".F .shangp ul li:nth-child(4) img").each(function(i){
+					$(this).attr("src",res.arr[i].img4)
+				})
+				$(".F .shangp ul li:nth-child(5) p:nth-child(1)").each(function(i){
+					$(this).text(res.arr[i].text5)
+				})
+				$(".F .shangp ul li:nth-child(5) p:nth-child(2)").each(function(i){
+					$(this).text(res.arr[i].price5)
+				})
+				$(".F .shangp ul li:nth-child(5) img").each(function(i){
+					$(this).attr("src",res.arr[i].img5)
+				})
+				$(".F .shangp ul li:nth-child(6) p:nth-child(1)").each(function(i){
+					$(this).text(res.arr[i].text6)
+				})
+				$(".F .shangp ul li:nth-child(6) p:nth-child(2)").each(function(i){
+					$(this).text(res.arr[i].price6)
+				})
+				$(".F .shangp ul li:nth-child(6) img").each(function(i){
+					$(this).attr("src",res.arr[i].img6)
+				})
+			},error:function(){
+				console.log("404")
+			}
+		})
+	</script>
+
+</html>

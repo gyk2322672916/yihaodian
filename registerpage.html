@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/registerpage.css"/>
+		<title></title>
+	</head>
+	<body>
+		<div class="header">
+			<div class="logo">
+				<img src="registerpageImg/onelogo.jpg"/>
+			</div>
+				<div class="right">
+					<span class="login">您好,欢迎光临1号店! <span><a href="loginpage.html" style="color: #0066cc;">请登录</a></span></span>
+					<span class="service">帮助中心</span>
+				</div>
+		</div>
+		<div class="nav">
+			<div class="regsiter">
+				<ul>
+					<li>
+						1号店注册
+					</li>
+					<li>
+						<input type="text" placeholder="手机号"/>
+					</li>
+					<li>
+						<div class="left">
+							<input type="text" placeholder="验证码">
+						</div>
+						<div class="right">获取验证码</div>
+					</li>
+					<li>
+						<input type="password" placeholder="设置密码"/>
+					</li>
+					<li>
+						<input type="password" placeholder="确认密码"/>
+					</li>
+					<li>点击注册 , 表示您同意1号店  <span>《服务协议》</span></li>
+					<li onclick="fn()">同意协议并注册</li>
+					<span id="box">输入的密码不一致</span>
+				</ul>
+			</div>
+			<div class="footer">
+			<p>泸ICP备13044278 | 合字B1.B2-20130004 | 营业执照</p>
+			<p>Copyright &copy; 1号店网上超市 2007-2016 , All Rights Reserevd</p>
+		</div>
+		</div>
+	</body>
+	<script>
+		var ipt=document.getElementsByTagName("input")
+		var box=document.getElementById("box")
+		function fn(){
+			if(ipt[2].value!=ipt[3].value){
+				box.style.display="block"
+			}
+		}
+		ipt[2],ipt[3].onclick=function(){
+				box.style.display="none"
+		}
+	</script>
+</html>

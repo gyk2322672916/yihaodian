@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+ul, ol, dl, li, dt, dd {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+body {
+  width: 1312px;
+  height: 630px;
+  margin: 0 auto; }
+
+.header {
+  width: 100%;
+  height: 87px;
+  border-bottom: 1px solid #e1e1e1;
+  box-shadow: 0px 2px 5px #e1e1e1; }
+  .header .logo {
+    width: 148px;
+    height: 58px;
+    float: left; }
+    .header .logo img {
+      width: 148px;
+      height: 58px;
+      margin-top: 14px;
+      margin-left: 67px; }
+  .header .right {
+    width: 300px;
+    height: 100px;
+    float: right; }
+    .header .right .login {
+      font-size: 12px;
+      color: #999999;
+      margin-right: 15px; }
+      .header .right .login span {
+        color: #0066cc; }
+    .header .right .service {
+      display: inline-block;
+      padding: 5px 18px;
+      border: 1px solid #cccccc;
+      margin-top: 5px;
+      color: #333333;
+      font-size: 14px; }
+
+.nav {
+  width: 100%;
+  height: 100%; }
+  .nav .regsiter {
+    width: 331px;
+    height: 410px;
+    margin-top: 19px;
+    margin-left: 488px; }
+    .nav .regsiter ul {
+      width: 100%;
+      height: 100%;
+      position: relative; }
+      .nav .regsiter ul li:nth-child(1) {
+        width: 100%;
+        height: 67px;
+        text-align: center;
+        line-height: 67px;
+        font-size: 22px;
+        font-weight: bold; }
+      .nav .regsiter ul li:nth-child(2) {
+        margin-bottom: 12px; }
+        .nav .regsiter ul li:nth-child(2) input {
+          width: 330px;
+          height: 54px;
+          padding-left: 20px;
+          font-size: 14px; }
+      .nav .regsiter ul li:nth-child(3) {
+        width: 100%;
+        height: 54px;
+        margin-bottom: 12px; }
+        .nav .regsiter ul li:nth-child(3) .left {
+          width: 195px;
+          height: 54px;
+          float: left; }
+          .nav .regsiter ul li:nth-child(3) .left input {
+            width: 100%;
+            height: 100%;
+            padding-left: 20px;
+            font-size: 14px; }
+        .nav .regsiter ul li:nth-child(3) .right {
+          width: 125px;
+          height: 54px;
+          float: right;
+          background: #57565f;
+          color: #fff;
+          font-size: 16px;
+          line-height: 54px;
+          text-align: center;
+          font-weight: bold;
+          border-radius: 3px; }
+      .nav .regsiter ul li:nth-child(4), .nav .regsiter ul li:nth-child(5) {
+        width: 100%;
+        height: 54px; }
+        .nav .regsiter ul li:nth-child(4) input, .nav .regsiter ul li:nth-child(5) input {
+          width: 100%;
+          height: 100%;
+          font-size: 14px;
+          padding-left: 20px; }
+      .nav .regsiter ul li:nth-child(5) {
+        margin-top: 20px; }
+      .nav .regsiter ul li:nth-child(6) {
+        width: 100%;
+        height: 46px;
+        line-height: 46px;
+        padding-left: 12px;
+        color: #999;
+        font-size: 12px; }
+        .nav .regsiter ul li:nth-child(6) span {
+          color: #0066cc; }
+      .nav .regsiter ul li:nth-child(7) {
+        width: 100%;
+        height: 50px;
+        line-height: 54px;
+        text-align: center;
+        color: #fff;
+        background: #ff3c3c;
+        border-radius: 3px;
+        font-weight: bold; }
+      .nav .regsiter ul > :nth-child(8) {
+        font-size: 12px;
+        color: red;
+        position: absolute;
+        right: -113px;
+        top: 293px;
+        display: none; }
+  .nav .footer {
+    margin-top: 60px;
+    width: 100%;
+    text-align: center; }
+    .nav .footer p {
+      font-size: 12px;
+      margin-bottom: 5px;
+      color: #666; }
+
+/*# sourceMappingURL=registerpage.css.map */

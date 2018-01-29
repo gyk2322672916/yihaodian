@@ -1,0 +1,160 @@
+{
+	"arr":[
+	         {
+	        	 "img1":"img2/F_11.gif",
+	        	 "text1":"贝思客 草莓先生", 
+	        	 "price1":"￥98.00",
+	        	 
+	        	 "img2":"img2/F_13.gif",
+	        	 "text2":"微笑果园SMILE", 
+	        	 "price2":"￥84.00",
+	        	 
+	        	 "img3":"img2/F_15.gif",
+	        	 "text3":"新鲜美食 进口美食", 
+	        	 "price3":"￥98.00",
+	        	 
+	        	 "img4":"img2/F_22.gif",
+	        	 "text4":"新鲜美食 进口美食", 
+	        	 "price4":"￥24.00",
+	        	 
+	        	 "img5":"img2/F_23.gif",
+	        	 "text5":"新鲜美食 纯牛奶", 
+	        	 "price5":"￥142.00",
+	        	 
+	        	 "img6":"img2/F_24.gif",
+	        	 "text6":"莫斯利安", 
+	        	 "price6":"￥62.00"
+	         },
+	         {
+	        	 "img1":"img2/F_34.gif",
+	        	 "text1":"美宝莲粉饼", 
+	        	 "price1":"￥260.00",
+	        	 
+	        	 "img2":"img2/F_37.gif",
+	        	 "text2":"洗衣液", 
+	        	 "price2":"￥60.00",
+	        	 
+	        	 "img3":"img2/F_38.gif",
+	        	 "text3":"洗发水", 
+	        	 "price3":"￥160.00",
+	        	 
+	        	 "img4":"img2/F_47.gif",
+	        	 "text4":"男士洗发水", 
+	        	 "price4":"￥120.00",
+	        	 
+	        	 "img5":"img2/F_49.gif",
+	        	 "text5":"美宝莲粉饼", 
+	        	 "price5":"￥260.00",
+	        	 
+	        	 "img6":"img2/F_50.gif",
+	        	 "text6":"男士设计洗面奶", 
+	        	 "price6":"￥90.00"
+	         },
+	         {
+	        	 "img1":"img2/F_64.gif",
+	        	 "text1":"儿童推车", 
+	        	 "price1":"￥560.00",
+	        	 
+	        	 "img2":"img2/F_66.gif",
+	        	 "text2":"妈咪纸尿裤", 
+	        	 "price2":"￥260.00",
+	        	 
+	        	 "img3":"img2/F_68.gif",
+	        	 "text3":"儿童玩具 挖掘机", 
+	        	 "price3":"￥160.00",
+	        	 
+	        	 "img4":"img2/F_77.gif",
+	        	 "text4":"纸尿裤", 
+	        	 "price4":"￥260.00",
+	        	 
+	        	 "img5":"img2/F_80.gif",
+	        	 "text5":"儿童推车", 
+	        	 "price5":"￥86.00",
+	        	 
+	        	 "img6":"img2/F_82.gif",
+	        	 "text6":"奶粉", 
+	        	 "price6":"￥660.00"
+	         }
+	         ],
+	         "arr2":[{
+	        	 "img":"searchListImg/06.png",
+	        	 "price":"￥ 198.00",
+	        	 "text":"海瞳7-8mm水滴形天然珍珠项链"
+	         },{
+	        	 "img":"searchListImg/08.png",
+	        	 "price":"￥ 198.00",
+	        	 "text":"海瞳7-8mm水滴形天然珍珠项链"
+	         },{
+	        	 "img":"searchListImg/10.png",
+	        	 "price":"￥ 198.00",
+	        	 "text":"海瞳7-8mm水滴形天然珍珠项链"
+	         },{
+	        	 "img":"searchListImg/12.png",
+	        	 "price":"￥ 198.00",
+	        	 "text":"海瞳7-8mm水滴形天然珍珠项链"
+	         },{
+	        	 "img":"searchListImg/28.png",
+	        	 "price":"￥ 198.00",
+	        	 "text":"海瞳7-8mm水滴形天然珍珠项链"
+	         },{
+	        	 "img":"searchListImg/24.png",
+	        	 "price":"￥ 198.00",
+	        	 "text":"海瞳7-8mm水滴形天然珍珠项链"
+	         },{
+	        	 "img":"searchListImg/26.png",
+	        	 "price":"￥ 198.00",
+	        	 "text":"海瞳7-8mm水滴形天然珍珠项链"
+	         },{
+	        	 "img":"searchListImg/27.png",
+	        	 "price":"￥ 198.00",
+	        	 "text":"海瞳7-8mm水滴形天然珍珠项链"
+	         },{
+	        	 "img":"searchListImg/37.png",
+	        	 "price":"￥ 198.00",
+	        	 "text":"海瞳7-8mm水滴形天然珍珠项链"
+	         },{
+	        	 "img":"searchListImg/38.png",
+	        	 "price":"￥ 198.00",
+	        	 "text":"海瞳7-8mm水滴形天然珍珠项链"
+	         },{
+	        	 "img":"searchListImg/39.png",
+	        	 "price":"￥ 198.00",
+	        	 "text":"海瞳7-8mm水滴形天然珍珠项链"
+	         },{
+	        	 "img":"searchListImg/41.png",
+	        	 "price":"￥ 198.00",
+	        	 "text":"海瞳7-8mm水滴形天然珍珠项链"
+	         },{
+	        	 "img":"searchListImg/28.png",
+	        	 "price":"￥ 198.00",
+	        	 "text":"海瞳7-8mm水滴形天然珍珠项链"
+	         },{
+	        	 "img":"searchListImg/24.png",
+	        	 "price":"￥ 198.00",
+	        	 "text":"海瞳7-8mm水滴形天然珍珠项链"
+	         },{
+	        	 "img":"searchListImg/26.png",
+	        	 "price":"￥ 198.00",
+	        	 "text":"海瞳7-8mm水滴形天然珍珠项链"
+	         },{
+	        	 "img":"searchListImg/27.png",
+	        	 "price":"￥ 198.00",
+	        	 "text":"海瞳7-8mm水滴形天然珍珠项链"
+	         },{
+	        	 "img":"searchListImg/37.png",
+	        	 "price":"￥ 198.00",
+	        	 "text":"海瞳7-8mm水滴形天然珍珠项链"
+	         },{
+	        	 "img":"searchListImg/38.png",
+	        	 "price":"￥ 198.00",
+	        	 "text":"海瞳7-8mm水滴形天然珍珠项链"
+	         },{
+	        	 "img":"searchListImg/39.png",
+	        	 "price":"￥ 198.00",
+	        	 "text":"海瞳7-8mm水滴形天然珍珠项链"
+	         },{
+	        	 "img":"searchListImg/41.png",
+	        	 "price":"￥198.00",
+	        	 "text":"海瞳7-8mm水滴形天然珍珠项链"
+	         }]
+}
